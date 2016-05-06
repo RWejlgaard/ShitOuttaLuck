@@ -15,8 +15,13 @@ public class Toilet : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other) {
 		PlayerClass _playerclass = other.GetComponent<PlayerClass> ();
-		if (_playerclass.PaperFound == true && _playerclass.LifeTime >= 0f) {
-			WinLevel();
+		if (_playerclass.PaperFound == true) {
+            if (_playerclass.LifeTime >= 0f) {
+                if (!_playerclass.LevelWon) {
+                    WinLevel();
+                    _playerclass.LevelWon = true;
+                }
+            }
 		}
     }
 

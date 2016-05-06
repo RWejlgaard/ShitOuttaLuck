@@ -8,8 +8,9 @@ public class PlayerClass : MonoBehaviour {
     public float WalkSpeed = 2.0f;
     public float LifeTime = 100f;
     public bool PaperFound = false;
+    public bool LevelWon = false;
     public int PoopChance = 50;
-    public GUIText OutputText;
+    public Text OutputText;
     GameObject[] _poo;
     
 

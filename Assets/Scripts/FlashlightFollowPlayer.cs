@@ -12,7 +12,9 @@ public class FlashlightFollowPlayer : MonoBehaviour {
     void Update() {
         Vector3 targetPos = target.transform.position;
         Quaternion targetRot = target.transform.rotation;
+        
         targetPos.z = -0.155f;
+        
         transform.position = targetPos;
 
         Vector3 _diff = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
