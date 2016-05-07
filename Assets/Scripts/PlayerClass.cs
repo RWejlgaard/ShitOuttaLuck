@@ -82,7 +82,6 @@ public class PlayerClass : MonoBehaviour {
 	}
 
     void Poop() {
-        
         int _randomInt = Random.Range(0, _poo.Length);
         Instantiate(_poo[_randomInt], transform.position, transform.rotation);
     }

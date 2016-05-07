@@ -107,10 +107,12 @@
     <Compile Include="Assets\2DDL\Scripts\SetRenderQueue.cs" />
     <Compile Include="Assets\2DDL\Scripts\restoreStone.cs" />
     <Compile Include="Assets\2DDL\Scripts\rotate.cs" />
+    <Compile Include="Assets\Scripts\Buttplug.cs" />
     <Compile Include="Assets\Scripts\FlashlightFollowPlayer.cs" />
     <Compile Include="Assets\Scripts\FollowTarget.cs" />
     <Compile Include="Assets\Scripts\Paper.cs" />
     <Compile Include="Assets\Scripts\PlayerClass.cs" />
+    <Compile Include="Assets\Scripts\RedPoo.cs" />
     <Compile Include="Assets\Scripts\Toilet.cs" />
     <Compile Include="Assets\Scripts\UpdateTimer.cs" />
     <Compile Include="Assets\Tile Editor\Scripts\Class\ColliderInfo.cs" />
